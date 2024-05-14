@@ -1,0 +1,6 @@
+<!-- I copied the Eternal Winter spell and changed some parameters to better fit question 5 
+	 This is code that I added into the spells.xml in the server code
+-->
+<instant group="attack" name="Winter" words="frigo" level="8" mana="1" premium="0" selftarget="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="attack/winter.lua">
+		<vocation name="Sorcerer" />
+	</instant>
